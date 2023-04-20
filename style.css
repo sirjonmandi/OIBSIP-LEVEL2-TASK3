@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+
+    background-image: url(bgimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+header{
+    height: 50px;
+    width: 100vw;
+    background-color: white;
+    opacity: 70%;
+}
+.header{
+    padding-left: 30px;
+    padding-top: 5px;
+}
+.outer-box{
+    height:800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* flex-direction: column; */
+}
+textarea{
+    resize: none;
+    padding: 10px;
+    height: 200px;
+    font-size: 25px;
+    width: 80%;
+    box-shadow: -5px 5px 8px rgba(121, 123, 112, 0.816);
+    border:none;
+    border-radius: 8px;
+}
+.input,.lists{
+    height: 600px;
+    width: 40%;
+    font-size: 25px;
+    background-color: rgb(255, 255, 255);
+    opacity: 70%;
+    box-shadow: -5px 5px 8px rgba(121, 123, 112, 0.816);
+    border:none;
+    border-radius: 8px;
+}
+.lists{
+    text-align: center;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lists li{
+    background-color: #7d7706;
+    color: white;
+    padding: 10px;
+    position: relative;
+    padding-right: 25px;
+    text-align: justify;
+    margin-top: 10px;
+    user-select: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.lists li i{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    
+}
+button{
+    font-size: 20px;
+    margin: 30px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    background-color: #7cc33d;
+    color: white;
+    opacity: 100%;
+    box-shadow: -5px 5px 8px rgba(121, 123, 112, 0.816);
+}
+.done{
+    background-color: #95a5a6 !important;
+    color: black;
+    text-decoration: line-through;
+}
