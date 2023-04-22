@@ -67,6 +67,7 @@ textarea{
     padding-right: 25px;
     text-align: justify;
     margin-top: 10px;
+    list-style: none;
     user-select: none;
     border-radius: 5px;
     cursor: pointer;
