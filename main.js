@@ -1,4 +1,3 @@
-alert("optimized for desktop only");
 
 var data = document.getElementById('data');
 var submit = document.getElementById('submit');
